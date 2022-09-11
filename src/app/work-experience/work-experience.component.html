@@ -1,1 +1,27 @@
-<p>work-experience works!</p>
+<FONT FACE="raro, courier" SIZE=4 COLOR="black">
+    Experiencia laboral</FONT>
+<ul *ngFor ="let work of workExperience">
+    <li>
+        <tr>
+            <td style="background-color: rgb(255, 255, 255);">{{work.fecha}} </td> 
+            <td style="background-color: rgb(255, 255, 255);">{{work.ubicacion}} </td> 
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 255);">{{work.puesto}} </td> 
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 255);">{{work.empresa}} </td> 
+        </tr>
+
+        <FONT FACE="raro, courier" SIZE=4 COLOR="black">
+            Logros</FONT>
+
+<ul *ngFor="let logro of work.logros">
+    <li>
+        <tr>
+            {{logro.descripcion}}
+        </tr>
+    </li>
+</ul>
+</li>
+</ul>
