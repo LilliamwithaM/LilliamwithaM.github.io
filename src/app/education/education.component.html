@@ -1,1 +1,15 @@
-<p>education works!</p>
+<font face = "Verdana" size = "4" color ="#406DEC">
+    Educación</font><br/>
+    <ul *ngFor ="let work of education">
+        <li>
+            <tr>
+                <td>{{work.fecha}} </td> 
+            </tr>
+            <tr>
+                <td><b>{{work.area}}</b> </td> 
+            </tr>
+            <tr>
+                <td>{{work.empresa}} </td> 
+            </tr>
+    </li>
+    </ul>
