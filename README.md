@@ -1,5 +1,9 @@
 # Lilliamcv
+<<<<<<< HEAD
 # cerrar issue setup
+=======
+# branch 
+>>>>>>> 9f4069637d71c5d0f7acc1b14382fbcacddc7c80
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
 ## Development server
