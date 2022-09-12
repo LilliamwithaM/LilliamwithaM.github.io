@@ -1,1 +1,12 @@
-<p>achievements works!</p>
+<font face = "Verdana" size = "4" color ="#406DEC">
+    Logros y certificados</font><br/>
+
+    <ul *ngFor ="let achievements of achievements">
+        <tr>
+            <td><b>{{achievements.nombre}}</b></td> 
+            <td>{{achievements.fecha}} </td> 
+        </tr>
+        <tr>
+            <td>{{achievements.descripcion}} </td> 
+        </tr>
+    </ul>
